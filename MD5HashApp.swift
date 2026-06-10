@@ -289,7 +289,7 @@ struct ContentView: View {
         justCopied = true
 
         Task { @MainActor in
-            try? await Task.sleep(for: .seconds(1.5))
+            try? await Task.sleep(nanoseconds: 1_500_000_000)
             justCopied = false
         }
     }
