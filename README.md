@@ -14,7 +14,7 @@ A lightweight macOS application for computing MD5 hashes of files. Simply drag a
 
 ### Requirements
 
-- macOS 13.0 or later
+- macOS 11.0 or later
 - Swift toolchain (Xcode Command Line Tools)
 
 ### Build
