@@ -28,8 +28,9 @@ EOF
 
 APP=MD5Hash.app
 rm -rf "$APP"
-mkdir -p "$APP/Contents/MacOS"
+mkdir -p "$APP/Contents/MacOS" "$APP/Contents/Resources"
 swiftc -O -parse-as-library -vfsoverlay "$OVERLAY_DIR/overlay.yaml" MD5HashApp.swift -o "$APP/Contents/MacOS/MD5Hash"
 cp Info.plist "$APP/Contents/"
+cp icon.png "$APP/Contents/Resources/"
 codesign --force --sign - "$APP"
 echo "Built $APP"
