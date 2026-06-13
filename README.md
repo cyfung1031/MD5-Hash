@@ -2,9 +2,7 @@
 
 A lightweight macOS application for computing MD5 hashes of files. Simply drag and drop a file onto the app window to calculate its hash.
 
-<img width="447" height="221" alt="Image" src="https://github.com/user-attachments/assets/539cd71e-c445-419d-902d-8330d38155f7" />
-
-<img width="449" height="316" alt="Image" src="https://github.com/user-attachments/assets/48a8ebf6-f102-46de-ad1d-f19ce0b16d9a" />
+<img width="160" alt="AppIcon" src="https://github.com/user-attachments/assets/3e85ddeb-0c5b-4e4c-b84d-af88aa4fdb9c" /> <img width="340" alt="Image" src="https://github.com/user-attachments/assets/539cd71e-c445-419d-902d-8330d38155f7" /> <img width="340" alt="Image" src="https://github.com/user-attachments/assets/48a8ebf6-f102-46de-ad1d-f19ce0b16d9a" />
 
 ## Features
 
